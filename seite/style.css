@@ -2,6 +2,10 @@
 
 body{
     background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Slideshow container */
@@ -100,4 +104,8 @@ img{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.racecar{
+  width:40em;
 }
